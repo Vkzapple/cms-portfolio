@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "awards",
+  "info": {
+    "singularName": "award",
+    "pluralName": "awards",
+    "displayName": "award"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "organization": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "award_date": {
+      "type": "date"
+    }
+  }
+}
