@@ -10,7 +10,6 @@ Icon
 .Trashes
 ._*
 
-
 ############################
 # Linux
 ############################
@@ -129,3 +128,4 @@ dist
 build
 .strapi-updater.json
 .strapi-cloud.json
+home.html

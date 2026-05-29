@@ -503,7 +503,9 @@ export interface ApiProjectProject extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    category: Schema.Attribute.Enumeration<['Web', 'AI', 'IoT', 'UI/UX']>;
+    category: Schema.Attribute.Enumeration<
+      ['Web', 'AI', 'IoT', 'UI/UX', 'Mobile']
+    >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
