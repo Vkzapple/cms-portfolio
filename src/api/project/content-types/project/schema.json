@@ -31,6 +31,7 @@
     },
     "category": {
       "type": "enumeration",
+      "required": true,
       "enum": [
         "Web",
         "AI",
